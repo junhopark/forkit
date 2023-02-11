@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>forkit</title>
+</head>
+
+<body>
+    <a href="/login">Fork the repo</a>
+
+    <br /><br />
+
+    {% for messages in get_flashed_messages() %}
+        {{ messages }}
+    {% endfor %}
+</body>
+</html>
